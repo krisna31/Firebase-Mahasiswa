@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
                 listMahasiswa = new ArrayList<>();
                 for (DataSnapshot item : snapshot.getChildren()) {
                     ModelMahasiswa mhs = item.getValue(ModelMahasiswa.class);
+                    assert mhs != null;
                     mhs.setKey(item.getKey());
                     listMahasiswa.add(mhs);
                 }
