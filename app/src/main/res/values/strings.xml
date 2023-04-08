@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Firebase Mahasiswa</string>
+    <string name="add_mata_kuliah">Add Mata Kuliah</string>
+    <string name="nama_mahasiswa">Nama Mahasiswa</string>
+    <string name="simpan">Simpan</string>
+    <string name="mata_kuliah">Mata Kuliah</string>
 </resources>
