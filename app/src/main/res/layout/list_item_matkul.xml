@@ -2,6 +2,7 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvMahasiswa"
     android:layout_height="match_parent">
 
     <RelativeLayout
@@ -33,6 +34,7 @@
         </LinearLayout>
 
         <ImageView
+            android:id="@+id/iv_hapus"
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:layout_alignParentRight="true"
